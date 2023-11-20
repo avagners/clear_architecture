@@ -76,5 +76,6 @@ class TestCleanerRobot(unittest.TestCase):
         response = self.robot.stop()
         self.assertEqual(response, "STOP")
 
+
 if __name__ == '__main__':
     unittest.main()
